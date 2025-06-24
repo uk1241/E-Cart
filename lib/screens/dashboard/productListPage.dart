@@ -1,8 +1,8 @@
 // Import required packages
 import 'dart:convert'; // For decoding JSON
+import 'package:e_cart/model/products.dart';
 import 'package:flutter/material.dart'; // Flutter UI framework
 import 'package:http/http.dart' as http; // For making HTTP requests
-import '../model/products.dart'; // Importing the Product model
 
 // Main widget for displaying the product list
 class ProductListPage extends StatefulWidget {
